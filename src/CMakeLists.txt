@@ -39,6 +39,8 @@ endif(WIN32)
 set(MAIN_APP_NAMES
     CheckExtension
     CreateInstance
+    CheckLogicalDevice
+    CheckLayers
 )
 
 foreach(app ${MAIN_APP_NAMES})
