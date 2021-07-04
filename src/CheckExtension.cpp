@@ -9,7 +9,7 @@
 
 #include <vulkan/vulkan.h>
 
-static int main() {
+int main() {
 	std::cout << "Hello Vulkan : Checking Extension\n";
 
 	uint32_t extensionCount = 0;
@@ -29,4 +29,5 @@ static int main() {
 		std::cout << '\t' << extension.extensionName << " : specVersion " << extension.specVersion  << '\n';
 	}
 
+	return 1;
 }

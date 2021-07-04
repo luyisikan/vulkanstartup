@@ -9,7 +9,7 @@
 
 #include <vulkan/vulkan.h>
 
-static int main() {
+int main() {
 	std::cout << "Hello Vulkan : Checking Layers\n";
 
     uint32_t layerCount;
@@ -40,5 +40,7 @@ static int main() {
 			<< "  - description :" << layer.description << '\n'
 			;
 	}
+
+	return 1;
 
 }
